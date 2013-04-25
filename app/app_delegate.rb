@@ -1,5 +1,5 @@
 class AppDelegate < ProMotion::Delegate
-  def application(application, didFinishLaunchingWithOptions:launchOptions)
-    true
+  def on_load(app, options)
+    open_split_screen MenuScreen, DetailScreen
   end
 end
