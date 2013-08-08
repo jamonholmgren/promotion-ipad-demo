@@ -10,4 +10,8 @@ Motion::Project::App.setup do |app|
   app.device_family = [:ipad]
   app.interface_orientations = [:portrait, :landscape_left, :landscape_right, :portrait_upside_down]
   app.detect_dependencies = true
+  
+  app.pods do
+    pod "XMLDictionary"
+  end
 end

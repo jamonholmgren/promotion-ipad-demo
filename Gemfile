@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
 
-gem "ProMotion", path: "../ProMotion" # "~> 0.6.0"
+gem "ProMotion", :path => "../ProMotion" # "~> 0.6.0"
 gem "bubble-wrap"
+gem "motion-cocoapods"
